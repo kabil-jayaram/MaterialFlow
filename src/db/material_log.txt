@@ -154,3 +154,38 @@
 [Wed Jul 26 2023 14:11:09 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count updated by 100.
 [Wed Jul 26 2023 14:11:18 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count removed: 1000.
 [Wed Jul 26 2023 14:11:37 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count updated by 230.
+[Wed Jul 26 2023 16:36:14 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count updated by 500.
+[Wed Jul 26 2023 16:36:50 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count updated by 500.
+[Wed Jul 26 2023 16:37:09 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count removed: 1000.
+26/07/2023 20:12:22 [Wed Jul 26 2023 20:12:22 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count updated by 770.
+26/07/2023 20:32:50 [Wed Jul 26 2023 20:32:50 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count removed: 100.
+26/07/2023 20:36:46 [Wed Jul 26 2023 20:36:46 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count updated by 100.
+26/07/2023 20:37:22 [Wed Jul 26 2023 20:37:22 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count removed: 100.
+27/07/2023 09:31:40 [Thu Jul 27 2023 09:31:40 GMT+0530 (India Standard Time)] Material ID 12 (Bricks) count updated by 400.
+27/07/2023 09:32:20 [Thu Jul 27 2023 09:32:20 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count updated by 500.
+27/07/2023 09:32:55 [Thu Jul 27 2023 09:32:55 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count added: 500.
+27/07/2023 09:33:34 [Thu Jul 27 2023 09:33:34 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count added: 10000.
+27/07/2023 09:34:32 [Thu Jul 27 2023 09:34:32 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count removed: 0.
+27/07/2023 09:36:11 [Thu Jul 27 2023 09:36:11 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count removed: 5000.
+27/07/2023 09:37:41 [Thu Jul 27 2023 09:37:41 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count removed: 100.
+27/07/2023 12:27:08 [Thu Jul 27 2023 12:27:08 GMT+0530 (India Standard Time)] Material ID 63 (Small Stones) count added: 5.
+27/07/2023 12:33:56 [Thu Jul 27 2023 12:33:56 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count added: 500.
+27/07/2023 12:34:25 [Thu Jul 27 2023 12:34:25 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count added: 5000.
+27/07/2023 12:34:53 [Thu Jul 27 2023 12:34:53 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count removed: 100.
+27/07/2023 12:36:23 [Thu Jul 27 2023 12:36:23 GMT+0530 (India Standard Time)] Material ID 32 (Bricks) count updated by 500.
+27/07/2023 12:37:04 [Thu Jul 27 2023 12:37:04 GMT+0530 (India Standard Time)] Material ID 45 (Steel) count added: 6000.
+27/07/2023 12:37:40 [Thu Jul 27 2023 12:37:40 GMT+0530 (India Standard Time)] Material ID 45 (Steel) count removed: 6000.
+27/07/2023 12:38:50 [Thu Jul 27 2023 12:38:50 GMT+0530 (India Standard Time)] Material ID 35 (Pipe) count added: 7000000000000000000000000.
+27/07/2023 12:40:54 [Thu Jul 27 2023 12:40:54 GMT+0530 (India Standard Time)] Material ID 32 (Pipe) count updated by 4000.
+27/07/2023 12:48:40 [Thu Jul 27 2023 12:48:40 GMT+0530 (India Standard Time)] Material ID 45 (Steel) count updated by 5000.
+27/07/2023 12:49:53 [Thu Jul 27 2023 12:49:53 GMT+0530 (India Standard Time)] Material ID 45 (Steel) count updated by 500.
+27/07/2023 12:50:56 [Thu Jul 27 2023 12:50:56 GMT+0530 (India Standard Time)] Material ID 345 (Cement) count added: 5600.
+27/07/2023 12:52:37 [Thu Jul 27 2023 12:52:37 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count added: 500.
+27/07/2023 12:52:47 [Thu Jul 27 2023 12:52:47 GMT+0530 (India Standard Time)] Material ID 13 (Bricks) count added: 500.
+27/07/2023 12:52:59 [Thu Jul 27 2023 12:52:59 GMT+0530 (India Standard Time)] Material ID 14 (Windows) count added: 500.
+27/07/2023 12:53:13 [Thu Jul 27 2023 12:53:13 GMT+0530 (India Standard Time)] Material ID 15 (Small Stones) count added: 500.
+27/07/2023 18:33:52 [Thu Jul 27 2023 18:33:52 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count removed: 100.
+27/07/2023 18:34:38 [Thu Jul 27 2023 18:34:38 GMT+0530 (India Standard Time)] Material ID 13 (Bricks) count updated by 100.
+27/07/2023 18:47:32 [Thu Jul 27 2023 18:47:32 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count removed: 100.
+27/07/2023 19:03:42 [Thu Jul 27 2023 19:03:42 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count updated by 12314341.
+27/07/2023 19:04:50 [Thu Jul 27 2023 19:04:50 GMT+0530 (India Standard Time)] Material ID 12 (Cement) count removed: 4641.

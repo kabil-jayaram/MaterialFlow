@@ -93,6 +93,12 @@
     }
   };
 
+  function isValidPositiveNumber(value) {
+    if((parseFloat(value)>0) && (parseFloat(value)<10000))
+      return true;
+    return false;
+  }
+
   function add() {
     const id = form?.elements.material_id.value;
     const name = form?.elements.name.value;
@@ -105,9 +111,8 @@
       return;
     }
 
-    const isDuplicate = tableEntries.some(entry => entry.id === id && entry.name !== name);
-    if (isDuplicate) {
-      toast('A material with the same ID but different name already exists!!!');
+    if (!isValidPositiveNumber(count)) {
+      toast('Please enter a valid number for Count!!!');
       return;
     }
 
@@ -132,6 +137,12 @@
           toast('Material Added Successfully!!!');
           // Clear the form fields after successfully adding an entry
           form?.reset();
+        } else if (data.message === 'A material with the same ID but different name already exists!!!') {
+          // Display toast message for duplicate entry
+          toast(data.message);
+        } else {
+          // Display toast message for other errors
+          toast('Error processing request');
         }
       })
       .catch((error) => {
@@ -139,25 +150,20 @@
       });
   }
 
-  let removeDateError = false;
-  let materialNotFoundError = false;
-
   function remove() {
     const id = form?.elements.material_id.value;
     const name = form?.elements.name.value;
     const count = form?.elements.count.value;
     const date = form?.elements.date.value;
     
-
     // Check if all fields are filled
     if (!id || !name || !count || !date) {
       toast('Please fill in all the fields!!!');
       return;
     }
 
-    const isMatchingMaterial = tableEntries.some(entry => entry.id == id && entry.name == name);
-    if (!isMatchingMaterial) {
-      toast('Material with the given ID and name not found!!!');
+    if (!isValidPositiveNumber(count)) {
+      toast('Please enter a valid number for Count!!!');
       return;
     }
 
@@ -166,7 +172,7 @@
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ id, count, date }),
+      body: JSON.stringify({ id, name, count, date }),
     })
       .then((response) => response.json())
       .then((data) => {
@@ -202,6 +208,12 @@
             // Set the error status variables
             materialNotFoundError = true;
             removeDateError = false;
+          } else if (data.message === 'Material with the same ID but different name already exists!!!') {
+            // Display toast message for duplicate entry
+            toast(data.message);
+          } else {
+            // Display toast message for other errors
+            toast('Error processing request');
           }
         }
       })
@@ -217,6 +229,7 @@
   }
 
   #add, #remove {
+    margin-top: 24px;
     width: 90px;
   }
 
