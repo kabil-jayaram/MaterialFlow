@@ -42,7 +42,7 @@
 		"fs": "^0.0.1-security",
 		"graphql": "^16.8.1",
 		"graphql-request": "^6.1.0",
-		"mongodb": "^5.7.0",
+		"mongodb": "^5.8.0",
 		"mongoose": "^7.4.1",
 		"powerbi-client": "^2.22.3",
 		"svelte-toast": "^1.0.0",
